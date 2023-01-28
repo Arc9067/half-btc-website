@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,600&family=Montserrat:wght@900&display=swap");
+:root {
+  --clr-primary: #f7931b;
+  --black: #000;
+  --white: #fff;
+  --barlow: "Barlow Condensed", sans-serif;
+  --regular: 400;
+  --medium: 500;
+  --semib: 600;
+  --bold: 800;
+  --spacing: 0.3rem;
+  --tran: 0.3s all linear;
+  --radius: 10px;
+  --mont: "Montserrat", sans-serif;
+}
+
+#fp-nav ul li a,
+.fp-slidesNav ul li a {
+  color: lightgray;
+}
+
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span {
+  color: white !important;
+  background-color: white;
+}
+
+.fp-warning,
+.fp-watermark a {
+  display: none !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: var(--clr-primary);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: var(--tran);
+}
+
+a:hover {
+  color: var(--clr-primary);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+img:not(.nav-img) {
+  display: block;
+}
+
+.dnone {
+  display: none;
+}
+
+.dblock {
+  display: block;
+}
+
+body {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  background-color: #c67616;
+  color: var(--white);
+  font-size: 1.12em;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+#nav {
+  background-color: var(--white);
+  position: fixed;
+  width: 100%;
+  z-index: 1000000;
+  min-height: 4rem;
+  display: grid;
+  place-items: center;
+}
+#nav .container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+#nav .container .nav-logo {
+  display: grid;
+  place-items: center;
+}
+#nav .container .nav-logo a {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+#nav .container .nav-logo a img {
+  height: 2rem;
+  margin: 0 auto;
+}
+#nav .container .nav-logo a h2 {
+  font-size: 1.7em;
+  color: var(--clr-primary);
+  font-weight: var(--bold);
+  text-transform: uppercase;
+}
+#nav .container .nav-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+#nav .container .nav-toggle i {
+  font-size: 1.5em;
+  background-color: var(--clr-primary);
+  padding: var(--spacing);
+  border-radius: 2px;
+  transition: var(--tran);
+  cursor: pointer;
+}
+#nav .container .nav-toggle .close {
+  display: none;
+  background-color: transparent;
+  color: #f9a949;
+}
+#nav .container .nav-link {
+  grid-column: 1/3;
+  padding-bottom: var(--spacing);
+  height: 0px;
+  transition: var(--tran);
+  overflow: hidden;
+}
+#nav .container .nav-link ul {
+  display: grid;
+  place-items: center;
+  text-transform: capitalize;
+  letter-spacing: 0.2rem;
+  gap: 1rem;
+}
+#nav .container .nav-link ul li a {
+  color: var(--black);
+}
+#nav .container .display-nav {
+  height: 115.5333251953px;
+}
+
+#fullpage .section-1 .container {
+  display: grid;
+  place-items: center;
+}
+#fullpage .section-1 .container .nav-txt {
+  font-size: 3em;
+  font-family: var(--mont);
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--clr-primary);
+  color: #4a2c08;
+}
+#fullpage .section-1 .container .btn {
+  background-color: transparent;
+  border: 1px solid white;
+  text-transform: uppercase;
+  font-weight: var(--semib);
+  font-style: italic;
+  color: var(--white);
+  border-radius: 0;
+}
+#fullpage .section-1 .container .btn i {
+  padding-left: var(--spacing);
+}
+#fullpage .section-1 .container .sect1txt {
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+#fullpage .section-1 .container .sect1txt h2 {
+  font-weight: 600;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+#fullpage .section-2 {
+  background: #000;
+}
+#fullpage .section-2 .container .headtxt h2 {
+  font-family: var(--mont);
+  text-transform: uppercase;
+}
+#fullpage .section-2 .container .headtxt p {
+  font-size: 0.7em;
+  color: #b3b3b3;
+}
+#fullpage .section-2 .container .headtxt .btn {
+  background-color: #f9a949;
+  text-transform: uppercase;
+  font-weight: var(--medium);
+  color: var(--black);
+}
+
+.section-3 {
+  background: #1a1a1a;
+  min-height: 20vh;
+  display: grid;
+  place-items: center;
+}
+.section-3 .container {
+  display: grid;
+}
+.section-3 .container footer .row {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.section-3 .container footer .row .footer-txt h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: #c5912d;
+}
+.section-3 .container footer .row .footer-nav ul {
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+.section-3 .container footer .row .footer-nav ul li {
+  text-transform: capitalize;
+  color: lightgray;
+}
+
+@media screen and (min-width: 700px) {
+  #fullpage .section-1 .container .sect1txt h2 {
+    max-width: 35rem;
+  }
+  #fullpage .section-2 .container {
+    display: grid;
+    place-items: center;
+  }
+  #fullpage .section-2 .container .headtxt {
+    max-width: 34rem;
+    text-align: center;
+  }
+  #fullpage .section-2 .container .headtxt h2 {
+    font-size: 2.5em;
+  }
+  #fullpage .section-2 .container .headtxt p {
+    font-size: 1em;
+  }
+  #fullpage .section-2 .container .headtxt button {
+    margin-left: 1.5rem;
+    transition: var(--tran);
+  }
+  #fullpage .section-2 .container .headtxt button:hover {
+    background-color: black;
+    color: var(--clr-primary);
+  }
+}
+.section-3 {
+  min-height: 50vh;
+}
+.section-3 .container {
+  display: grid;
+  place-items: center;
+}/*# sourceMappingURL=style.css.map */

@@ -1,2 +1,31 @@
-# half-btc-website
-a website for half btc crypto project
+# Dogeai Official Website
+
+This is a readme file for dogeai Official Coin
+
+## Technologies used
+
+#### Below Are the Technologies used in this project
+
+- `HTML5` for struturing the website / Website Content
+
+- `CSS` for Styling the website
+
+- `SASS` for adding addiional functions to the webisite
+
+- `JAVASCRIPT` for adding addiional functions to the webisite
+
+## Website Preview
+
+#### mobile Preview
+
+![alt text](https://github.com/Arc9067/DogeAi/blob/main/img/screenshot/1.png?raw=true)
+
+![alt text](https://github.com/Arc9067/DogeAi/blob/main/img/screenshot/2.png?raw=true)
+
+![alt text](https://github.com/Arc9067/DogeAi/blob/main/img/screenshot/3.png?raw=true)
+
+![alt text](https://github.com/Arc9067/DogeAi/blob/main/img/screenshot/4.png?raw=true)
+
+### Link to website Preview
+
+[Official website](https://dogeai.space/)
