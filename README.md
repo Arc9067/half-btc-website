@@ -1,6 +1,6 @@
-# Dogeai Official Website
+# half btc Official Website
 
-This is a readme file for dogeai Official Coin
+This is a readme file for half btc Official Coin
 
 ## Technologies used
 
@@ -16,16 +16,3 @@ This is a readme file for dogeai Official Coin
 
 ## Website Preview
 
-#### mobile Preview
-
-![alt text](https://github.com/Arc9067/DogeAi/blob/main/img/screenshot/1.png?raw=true)
-
-![alt text](https://github.com/Arc9067/DogeAi/blob/main/img/screenshot/2.png?raw=true)
-
-![alt text](https://github.com/Arc9067/DogeAi/blob/main/img/screenshot/3.png?raw=true)
-
-![alt text](https://github.com/Arc9067/DogeAi/blob/main/img/screenshot/4.png?raw=true)
-
-### Link to website Preview
-
-[Official website](https://dogeai.space/)
